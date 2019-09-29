@@ -74,49 +74,75 @@
 
 
 /* this is for ninja man */
-        * {
-            margin: 0px;
-            padding: 0px;
-        }
+#ghost {
+  width: 40px;
+  display: inline-block;
+  background: black;
+  background-image: url("https://firezdog.github.io/academy-pacman/img/bluey.gif");
+  background-size: contain;
+  position: absolute;
+  left: 720px;
+  top: 760px;
+}
 
-        .wall {
-            background-color: blue;
-            height: 40px;
-            width: 40px;
-            display: inline-block;
-        }
+* {
+  margin: 0;
+  padding: 0;
+  height: 40px;
+}
 
-        .sushi {
-            background-color: black;
-            height: 40px;
-            width: 40px;
-            display: inline-block;
-            background-image: url("img/sushi.png");
-            background-size: contain;
-        }
+.onigiri {
+  width: 40px;
+  display: inline-block;
+  background: black;
+  background-image: url("img/onigiri.png");
+  background-size: contain;
+}
 
-        .blank {
-            background-color: black;
-            height: 40px;
-            width: 40px;
-            display: inline-block;
-        }
+body {
+  background-image: url("img/sushi.png")
+}
 
-        #ninjaman {
-            height: 40px;
-            width: 40px;
-            display: inline-block;
-            background: black;
-            background-image: url("img/ninja.gif");
-            background-size: contain;
-            position: absolute;
-        }
+.row {
+  line-height: 0px;
+}
 
-        .onigiri {
-            background-color: black;
-            height: 40px;
-            width: 40px;
-            display: inline-block;
-            background-image: url("img/onigiri.png");
-            background-size: contain;
-        }
+.wall {
+  background-color: blue;
+  width: 40px;
+  display: inline-block;
+}
+
+.sushi {
+  width: 40px;
+  display: inline-block;
+  background: black;
+  background-image: url("img/sushi.png");
+  background-size: contain;
+}
+
+#score {
+  width: 40px;
+  display: inline-block;
+}
+
+.blank {
+  width: 40px;
+  display: inline-block;
+  background: black;
+}
+
+#ninjaman {
+  width: 40px;
+  display: inline-block;
+  background: black;
+  background-image: url("img/ninja.gif");
+  background-size: contain;
+  position: absolute;
+  left: 40px;
+  top: 80px;
+}
+
+span {
+  margin-right: 40px;
+}
