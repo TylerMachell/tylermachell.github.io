@@ -1,63 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>My Blog</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>My Website</title>
 </head>
 
 <body>
-  <div class="container">
-    <article>
-      <h1 id="page_title">Tyler Machell</h1>
-    </article>
-  </div>
-  <img src="https://i.ibb.co/sqK4MXg/TZEH0454.jpg" alt="my pic" height=200 width=200></a>
-  <!-- url of image https://ibb.co/cQ697sy-->
-  <h2>About Me:</h2>
-  <p>Hello everyone! Thanks for checking out my website, I love videogames and used to make walkthroughs and tutorials for
-    Pokémon!</p>
-  <p>Subscribe to my Youtube Channel to check it out.</p>
-  <a href="https://youtube.com/tietietv">Tyler's Youtube Channel</a>
 
-  <h3>Education History:</h3>
-  <ul>
-    <li>2010 - 2014 Los Altos High School</li>
-    <li>2014 - 2017 Chico State</li>
-    <li>2017 - 2018 Foothill College</li>
-    <li>2018 - 2019 Butte College</li>
-    <li>2019 - Coding Dojo</li>
-  </ul>
-  <h4>Schedule</h4>
-  <table>
-    <tr>
-      <th>Assignment</th>
-      <th>Difficulty</th>
-      <th>Time</th>
-    </tr>
-    <tr>
-      <td>Indentation Practice</td>
-      <td>Basic</td>
-      <td>.5 hours</td>
-    </tr>
-    <tr>
-      <td>Registration Form</td>
-      <td>Basic</td>
-      <td>1-2 hours</td>
-    </tr>
-    <tr>
-      <td>Fake Blog</td>
-      <td>Basic</td>
-      <td>1-2 hours</td>
-    </tr>
-  </table>
+    <div class="header">
+        <h1 id="page_title">Tyler Machell</h1>
+        <p>Software and Video Game Developer</p>
+    </div>
+
+    <div class="topnav">
+        <a href="#">About</a>
+        <a href="#">Portfolio</a>
+        <a href="www.youtube.com/tietietv">Youtube</a>
+    </div>
+
+    <div class="row">
+        <div class="column side">
+            <h2>About Me</h2>
+            <p>I'm a full stack developer!</p>
+            <img src="https://i.ibb.co/sqK4MXg/TZEH0454.jpg" alt="my pic" height=200 width=200></a>
+        </div>
+
+        <div class="column middle">
+            <div id='world'></div>
+            <div id='ninjaman'></div>
+            <h2>Ninja-man</h1>
+                <h3>Score: <span id="score">0</span>
+            </h2>
+            <script src="ninjaman.js"></script>
+
+        </div>
+
+        <div class="column side">
+            <!-- <h2>Javascript Game</h2> -->
+            <p>To the left is a javascript game I made while attending Coding Dojo Bootcamp!</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <!-- <p>Footer</p> -->
+    </div>
+
 </body>
 
 </html>
-
-<!--HTML
-head, title, meta description.    
-body, div, a, p, h1, ul, li, table (including thead, td, tbody, tr)
-At the bottom of the page, create a fake survey form that uses the following tags:
-form, select, input type="text", input type="checkbox", input type="radio", input type="submit".-->
